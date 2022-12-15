@@ -25,4 +25,4 @@ jobs:
         role-session-name: myGitHubActions
     - name: Shell test
       run: |
-        echo test-action
+        aws sts get-caller-identity
